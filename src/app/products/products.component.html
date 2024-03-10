@@ -1,0 +1,37 @@
+<div class="label">
+    <div class="title">
+    <h1>Products</h1>
+    <button [routerLink]="['/add']">Add</button>
+    </div>
+    <div class="brand">
+        <h4>Brand</h4>
+        <mat-form-field>
+        <mat-label>Select Brand</mat-label>
+        <mat-select (selectionChange)="onBrandSelection($event.value)">
+        <mat-option *ngFor="let b of brands" [value]="b.value">
+        {{b.viewValue}}
+        </mat-option>
+        </mat-select>
+</mat-form-field>
+    </div>
+    <div class="sort">
+    <h2>Price Sorting</h2>
+    <button (click)="sortHighToLow()">High-Low</button>
+    <button (click)="sortLowToHigh()">Low-High</button>
+    </div>
+</div>
+<div class="productlist">
+    <a [routerLink] = "['/product-list', p.id]" class="products" *ngFor="let p of productList;">
+        <mat-card class="example-card">
+            <mat-card-header>
+                <mat-card-title-group>
+                <mat-card-title>{{p.brand}} {{p.name}}</mat-card-title>
+                <mat-card-subtitle>({{p.price}}$)</mat-card-subtitle>
+                </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+                <img src="{{p.imageUrl}}" alt="img">
+            </mat-card-content>
+        </mat-card>
+    </a>
+</div>

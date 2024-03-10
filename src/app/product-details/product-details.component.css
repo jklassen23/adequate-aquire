@@ -1,0 +1,23 @@
+.example-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    border-width: 10px;
+    border-style: ridge;
+    border-color: #4C668C;
+    width: fit-content;
+    padding: 20px;
+    color: #4C668C;
+}
+.btn {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 20px;
+    width: 150px;
+}

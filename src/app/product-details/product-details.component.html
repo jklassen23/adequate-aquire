@@ -1,0 +1,17 @@
+<mat-card *ngIf="p" class="example-card">
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>{{p.brand}} {{p.name}}</mat-card-title>
+        <mat-card-subtitle>({{p.price}}$)</mat-card-subtitle>
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content>
+        <img src="{{p.imageUrl}}" alt="img">
+        <p>{{p.description}}</p>
+    </mat-card-content>
+</mat-card>
+<div *ngIf="!p">No Product Data</div>
+<div class="btn">
+<button [routerLink]="['/edit', p.id]">Edit</button>
+<button (click)="deleteProduct()">Delete</button>
+</div>

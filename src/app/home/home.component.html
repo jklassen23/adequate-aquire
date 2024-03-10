@@ -1,0 +1,16 @@
+<h1 class="products">Products</h1>
+<div class="products">
+<a [routerLink] = "['/product-list', p.id]"  *ngFor="let p of productList | slice:0:3;">
+    <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title-group>
+            <mat-card-title>{{p.brand}} {{p.name}}</mat-card-title>
+            <mat-card-subtitle>({{p.price}}$)</mat-card-subtitle>
+          </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+            <img src="{{p.imageUrl}}" alt="img">
+        </mat-card-content>
+    </mat-card>
+</a>
+</div>

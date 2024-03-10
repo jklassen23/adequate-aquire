@@ -1,0 +1,16 @@
+.div {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: auto;
+    color: #4C668C;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #4C668C;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+p {
+    padding: 10px;
+}

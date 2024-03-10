@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "brand": "Logitech",
+      "name": "G502",
+      "description": "Lightspeed Wireless Optical Gaming Mouse with RGB Lighting - Black",
+      "itemType": "mouse",
+      "price": 149.99,
+      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6333/6333841_sd.jpg;maxHeight=640;maxWidth=550"
+    },
+    {
+      "id": 3,
+      "brand": "SteelSeries",
+      "name": "Aerox 3",
+      "description": "Super Light Honeycomb Wired RGB Optical Gaming Mouse - Onyx",
+      "itemType": "mouse",
+      "price": 40.99,
+      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6485/6485231_sd.jpg;maxHeight=640;maxWidth=550"
+    },
+    {
+      "id": 4,
+      "brand": "Razer",
+      "name": "Huntsman Mini",
+      "description": "60% Wired Optical Clicky Switch Gaming Keyboard with Chroma RGB Backlighting - Mercury",
+      "itemType": "keyboard",
+      "price": 99.99,
+      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6425/6425358_sd.jpg;maxHeight=640;maxWidth=550"
+    },
+    {
+      "id": 5,
+      "brand": "Logitech",
+      "name": "G915",
+      "description": "Lightspeed TKL Wireless Mechanical GL Tactile Switch Gaming Keyboard with RGB Backlighting - Black",
+      "itemType": "keyboard",
+      "price": 139.99,
+      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6414/6414194_sd.jpg;maxHeight=640;maxWidth=550"
+    },
+    {
+      "id": 6,
+      "brand": "SteelSeries",
+      "name": "Apex Pro Mini",
+      "description": "60% Wired Mechanical OmniPoint 2.0 Adjustable Actuation Switch Gaming Keyboard with RGB Backlighting - Black",
+      "itemType": "keyboard",
+      "price": 129.99,
+      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6508/6508050_sd.jpg;maxHeight=640;maxWidth=550"
+    },
+    {
+      "id": 8,
+      "brand": "Logitech",
+      "name": "G PRO X",
+      "description": "Wireless Gaming Headset for PC - Black",
+      "itemType": "headset",
+      "price": 129.99,
+      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6420/6420879cv11d.jpg;maxHeight=640;maxWidth=550"
+    },
+    {
+      "id": 9,
+      "brand": "SteelSeries",
+      "name": "Arctis 9",
+      "description": "Wireless Gaming Headset for PC, PS5, and PS4 - Black",
+      "itemType": "headset",
+      "price": 149.99,
+      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6501/6501464_sd.jpg;maxHeight=640;maxWidth=550"
+    },
+    {
+      "id": 10,
+      "brand": "Razer",
+      "name": "Basilisk",
+      "description": "Wireless Optical with HyperSpeed Technology and Chargin Dock Gaming Mouse - Black",
+      "itemType": "",
+      "price": "99.99",
+      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6384/6384937_sd.jpg;maxHeight=640;maxWidth=550"
+    }
+  ]
+}
